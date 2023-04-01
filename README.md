@@ -12,6 +12,6 @@ Una zona esta compuesta por cuatro coordenadas, las cuales establecen las esquin
 
 Para saber si una direccion se encuentra en la zona, se deben trazar 4 rectas salientes del punto en los sentidos: arriba, abajo, derecha e izquierda hasta intersecar con los lados del cuadrilatero.
 
-![Rectas trazadas en el cuadrilatero](Images/Logica De Zonas.png)
+![Rectas trazadas en el cuadrilatero](Images/logicaZonas.png)
 
 Si la coordenada del pedido se mantiene entre la interseccion de la recta derecha y la interseccion de la recta izquierda con el cuadrilatero y tambien se ubica entre la interseccion de la recta hacia arriba y la interseccion de la recta hacia abajo con el cuadrilatero, entonces esa direccion se ubica en la zona.
